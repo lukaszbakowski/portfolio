@@ -1,0 +1,13 @@
+.container {
+    padding: 0.5rem;
+    padding-top: 100px;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        width: 0px;
+        background-color: transparent;
+    }
+    color:lightgray;
+}

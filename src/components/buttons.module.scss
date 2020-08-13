@@ -1,0 +1,19 @@
+.navButton {
+   user-select: none;
+   background-color: white;
+   color: black;
+   //font-size: 1.5rem;
+   padding: 0.3rem 1.3rem 0.3rem 1.3rem;
+   border-radius: 1rem;
+   text-align: center;
+   margin:0.3rem;
+   &:hover {
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+   }
+   &.active {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+   }
+}
